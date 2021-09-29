@@ -1,0 +1,43 @@
+body {
+  font-family: "Indie Flower", cursive;
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: cadetblue;
+  max-width: 60%;
+  margin: auto;
+}
+.heading {
+  padding-top: 2rem;
+}
+
+.output {
+  font-size: larger;
+  font-weight: 700;
+}
+
+.non-bullets {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline-start: 0;
+  justify-content: center;
+  /* background-color: rgb(0, 0, 0, 0.2); */
+  border-radius: 1.5rem;
+  /* max-width: 70%; */
+}
+.list-item {
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
